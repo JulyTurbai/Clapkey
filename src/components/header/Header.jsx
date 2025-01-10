@@ -1,24 +1,43 @@
-// import './Header.scss';
+import './Header.css';
 const Header = () => {
  
     
     return (
         <header className="header">
-            <nav className="menu">
-                <img className="menu logo" src="img/logo.png" alt="" />
-                <ul className="menu-items">
-                    <li className="menu-item">CRM та ERP</li>
-                    <li className="menu-item">КІБЕР БЕЗПЕКА</li>
-                    <li className="menu-item">IT АУТСОРСИНГ</li>
-                    <li className="menu-item">ПРО НАС</li>
-                </ul>
-                <div className="menu dop">
-                    <div className='dop-lang'>UA</div>
-                    <div className="dop-exit">Вхід</div>
-                   
+            <div className="container">
+                <div className="header block">
+                    <img className="logo" src="img/logo.png" alt="" />
+                    <nav className="menu">
+                        <ul className="menu-items">
+                            <li className="menu-item"><a href="#">CRM та ERP <img src="img/arrow.png" alt="" /></a>
+                                <ul>
+                                    <li> <a href="#"></a>CRM</li>
+                                    <li><a href="#"></a>ERP</li>
+                                </ul>
+                            </li>
+                            <li className="menu-item"><a href="#">КІБЕР БЕЗПЕКА <img src="img/arrow.png" alt="" /></a>
+                            
+                                <ul>
+                                    <li> <a href="#"></a>Plagins</li>
+                                    <li><a href="#"></a>Paroles</li>
+                                </ul>
+                            </li>
+                            <li className="menu-item"><a href="#">IT АУТСОРСИНГ <img src="img/arrow.png" alt="" /></a>
+                                <ul>
+                                    <li> <a href="#"></a>Plagins</li>
+                                    <li><a href="#"></a>Paroles</li>
+                                </ul>
+                            </li>
+                            <li className="menu-item"><a href="#">ПРО НАС</a></li>
+                        </ul>
+                    </nav>
+                    <div className="dop-menu">
+                        <div className='dop-menu lang'>UA</div>
+                        <button className="dop-menu exit">ВХІД</button>
+                    </div>
                 </div>
-            </nav>
-      </header>
+            </div>
+        </header>
     );
 };
 
