@@ -1,0 +1,16 @@
+.header {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  height: 107px;
+}
+
+.menu .logo {
+  width: 170px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=Header.css.map */
