@@ -1,6 +1,6 @@
 import './Header.css';
+
 const Header = () => {
- 
     
     return (
         <header className="header">
@@ -11,20 +11,20 @@ const Header = () => {
                         <ul className="menu-items">
                             <li className="menu-item"><a href="#">CRM та ERP <img src="img/arrow.png" alt="" /></a>
                                 <ul>
-                                    <li> <a href="#"></a>CRM</li>
+                                    <li><a href="#"></a>CRM</li>
                                     <li><a href="#"></a>ERP</li>
                                 </ul>
                             </li>
                             <li className="menu-item"><a href="#">КІБЕР БЕЗПЕКА <img src="img/arrow.png" alt="" /></a>
                             
                                 <ul>
-                                    <li> <a href="#"></a>Plagins</li>
+                                    <li><a href="#"></a>Plagins</li>
                                     <li><a href="#"></a>Paroles</li>
                                 </ul>
                             </li>
                             <li className="menu-item"><a href="#">IT АУТСОРСИНГ <img src="img/arrow.png" alt="" /></a>
                                 <ul>
-                                    <li> <a href="#"></a>Plagins</li>
+                                    <li><a href="#"></a>Plagins</li>
                                     <li><a href="#"></a>Paroles</li>
                                 </ul>
                             </li>
