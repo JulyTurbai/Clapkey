@@ -21,7 +21,9 @@
     flex-direction: column;
     align-items: center;
     width: 290px;
+    position: relative;
 }
+
 .indications__item .num{
     font-family: IgraSans;
     font-size: 48px;
@@ -33,4 +35,16 @@
     font-size: 16px;
     text-align: center;
     font-weight: 450;
+}
+.indications__item::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 38px;
+    background-color: black;
+    right: 0px;
+   top: 50%;
+}
+.indications__item:last-child::before {
+    display: none;
 }

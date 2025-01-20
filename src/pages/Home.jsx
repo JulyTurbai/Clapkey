@@ -1,6 +1,8 @@
 import React from 'react';
 import Hero from '../components/hero/Hero';
 import Indications from '../components/indications/Indications';
+import Cases from '../components/cases/Cases';
+import More from '../components/more/More';
 
 export const Home = () => {
     return (
@@ -9,6 +11,8 @@ export const Home = () => {
                 <div className="main">
                     <Hero />
                     <Indications/>
+                    <Cases/>
+                    <More/>
                 </div>
             
         </div>
