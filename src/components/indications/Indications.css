@@ -1,0 +1,36 @@
+.indications {
+    background-color: #c7d8b6;
+    margin-top: 60px;
+}
+
+.indications-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 210px;
+}
+
+.indications__items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.indications__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
+}
+.indications__item .num{
+    font-family: IgraSans;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.indications__item .name{
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 450;
+}
