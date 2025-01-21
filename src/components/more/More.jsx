@@ -6,7 +6,7 @@ const More = () => {
         <div className='more'>
             <div className="container">
                 <div className="more-block">
-                    <div className="img"></div>
+                    <img className='img' src="img/more/More.png" alt="" />
                     <div className="details">
                         <div className="details main-text">
                             <p>ПІДТРИМКА БІЗНЕСУ<br/>У ВСІХ АСПЕКТАХ</p>

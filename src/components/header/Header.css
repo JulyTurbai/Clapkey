@@ -12,6 +12,7 @@
 }
 .logo {
   width: 170px;
+  cursor: pointer;
 }
 .menu {
   display: flex;
@@ -82,4 +83,5 @@ nav img {
 
 .dop-menu .lang {
   margin-right: 50px;
+  cursor: pointer;
 }
