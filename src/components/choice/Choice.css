@@ -1,5 +1,5 @@
 .choice {
-    padding-top: 45px;
+    padding: 45px 0 45px;
 }
 
 .choice-block {
@@ -17,6 +17,7 @@
 
 .choice-text--olive {
     color: #c7d8b6;
+    
 }
 
 .main-img {

@@ -7,7 +7,7 @@ const Chouce = () => {
             <div className="container">
                 <div className="choice-block">
                     <div className="choice-text">
-                        <p className='choice choice-text--olive'>ЧОМУ</p>
+                        <p className='choice-text--olive'>ЧОМУ</p>
                         <p>ОБИРАЮТЬ<br/>НАС?</p>
                     </div>
                     <div className="main-img">
