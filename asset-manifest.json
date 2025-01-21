@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Clapkey/static/css/main.ec513087.css",
+    "main.js": "/Clapkey/static/js/main.0d94e8d8.js",
+    "static/media/IgraSans.ttf": "/Clapkey/static/media/IgraSans.8eece418a5f2e9321a14.ttf",
+    "static/media/case.png": "/Clapkey/static/media/case.8e46af958e609a143365.png",
+    "static/media/crm.png": "/Clapkey/static/media/crm.216e01cc6d5b1fc2f7ac.png",
+    "static/media/cyber.png": "/Clapkey/static/media/cyber.79cce01cfb6a4777ed9d.png",
+    "static/media/outsource.png": "/Clapkey/static/media/outsource.ce59cefefcd7074d2e8e.png",
+    "static/media/consult.png": "/Clapkey/static/media/consult.b522441bfb5242401ab9.png",
+    "index.html": "/Clapkey/index.html",
+    "main.ec513087.css.map": "/Clapkey/static/css/main.ec513087.css.map",
+    "main.0d94e8d8.js.map": "/Clapkey/static/js/main.0d94e8d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec513087.css",
+    "static/js/main.0d94e8d8.js"
+  ]
+}
