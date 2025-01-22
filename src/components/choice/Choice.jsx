@@ -1,7 +1,7 @@
 import React from 'react';
 import './Choice.css';
 
-const Chouce = () => {
+const Choice = () => {
     return (
         <div className='choice'>
             <div className="container">
@@ -23,4 +23,4 @@ const Chouce = () => {
     );
 };
 
-export default Chouce;
+export default Choice;
