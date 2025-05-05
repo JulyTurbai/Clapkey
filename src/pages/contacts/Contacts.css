@@ -1,0 +1,124 @@
+h1 {
+    font-size: 48px;
+}
+
+.categoryes {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.social {
+    width: 366px;
+    height: 480px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.social .descr {
+    font-size: 30px;
+    font-weight: 400;
+    width: 200px;
+    text-align: center;
+    
+}
+
+.social .img {
+    width: 60%;  
+    height: 60%;
+
+}
+
+.icons {
+    width: 200px;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.icons__icon {
+    width: 32px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.icons__icon:nth-child(4){
+    margin-right: 0;
+}
+
+.icons__icon:nth-last-child{
+    margin-right: 0;
+}
+
+.emails {
+    width: 360px;
+    height: 425px;
+    background-color: #c7d8b6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 70px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.emails__button {
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.emails__button img{
+    width: 22px;
+}
+
+.emails__mails .mail {
+    width: 205px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.emails__mails .mail:last-child {
+    padding-bottom: 0;
+}
+
+.info {
+    width: 366px;
+    height: 480px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.address__info.img {
+    width: 42px;
+}
+
+.info__location {
+    width: 200px;
+    text-align: center;
+}
+
+.line {
+    margin-top: 70px;
+    margin-bottom: 140px;
+}

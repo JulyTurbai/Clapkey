@@ -1,0 +1,50 @@
+.choice {
+    padding: 45px 0 45px;
+}
+
+.choice-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1080px;
+    position: relative;
+}
+
+.choice-text {
+    font-family: IgraSans;
+    font-size: 48px;
+}
+
+.choice-text--olive {
+    color: #c7d8b6;
+    
+}
+
+.main-img {
+    width: 650px;
+}
+
+.choice-descr {
+    position: absolute;
+    right: -108px;
+    top:290px;
+    width: 255px;
+    height: 120px;
+    border-radius: 40px;
+    background-color: #c7d8b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descr__img {
+    width: 63px;
+    margin-right: 27px;
+}
+
+.descr__text {
+    width: 117px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+

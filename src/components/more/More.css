@@ -1,0 +1,41 @@
+.more {
+    margin-top: 40px;
+}
+.more-block {
+    display: flex;
+}
+.img {
+    width: 672px;
+    height: 383px;
+    margin-right: 25px;
+}
+
+.main-text {
+    font-family: IgraSans;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.details .descr {
+    width: 410px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.but {
+    width: 160px;
+    height: 50px;
+    background-color: #c7d8b6;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.but:hover {
+    background-color: #000000;
+    color: white;
+}

@@ -1,0 +1,106 @@
+.cases {
+    margin-top: 55px;
+}
+.cases .main {
+    width: 100%;
+    display: flex;
+   justify-content: end;
+   margin-bottom: 30px;
+}
+.main-box {
+    width: 685px;
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    font-family: IgraSans;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.cases-block {
+    margin-bottom: 40px;
+}
+.cases__button {
+    width: 193px;
+    height: 50px;
+    background-color: black;
+    font-family: Roboto;
+    font-size: 16px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.cases__button:hover {
+    background-color: #c7d8b6;
+    color: black;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.cases__items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 455px;
+}
+
+.cases__item {
+    padding: 30px;
+    width: 364px;
+    height: 212px;
+    border-radius: 20px;
+    background-image: url('/public/img/cases/case.png'); 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.technologys {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.technology {
+    width: 107px;
+    height: 30px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.company__name {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+}
+.company__service {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.technology--blue {
+    background-color: #b6d8d0;
+}
+.technology--violet {
+    background-color: #b6c2d8;
+}
+.technology--olive {
+    background-color: #c7d8b6;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    color: #242424;
+}
+
+
