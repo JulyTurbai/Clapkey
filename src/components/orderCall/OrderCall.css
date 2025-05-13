@@ -163,8 +163,10 @@ input::placeholder {
   padding-right: 20px;
 }
 
-h3 {
-  margin-bottom: 40px;
+.success .accepted {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .success p {

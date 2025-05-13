@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-block">
                     <ul className="footer__items--1">
-                        <li className='footer__item--logo'><img src="img/logo.png" alt="" /></li>
+                        <NavLink to='./'><li className='footer__item--logo'><img src="img/logo.png" alt="" /></li></NavLink>
                         <li className='footer__item'>+38 067 569 61 50</li>
                         <li className='footer__item--email'>info@clapkey.com</li>
                         <div className="footer__icons">
@@ -21,7 +21,7 @@ const Footer = () => {
                         </div>
                     </ul>
                     <ul className='footer__items--2'>
-                        <li className='footer__item'>CRM ТА ERP</li>
+                        <li className='footer__item'><NavLink to='./CrmErp'>CRM ТА ERP</NavLink></li>
                         <li className='footer__item'>КІБЕР БЕЗПЕКА</li>
                         <li className='footer__item'>IT АУТСОРСИНГ</li>
                         <li className='footer__item'><NavLink to="/about">ПРО НАС</NavLink></li>
@@ -31,7 +31,7 @@ const Footer = () => {
                         <li className='footer__item'>ОФЕРТА</li>
                         <li className='footer__item'>КЛІЄНТИ</li>
                         <li className='footer__item'>ПРОЕКТИ</li>
-                        <li className='footer__item'>ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ</li>
+                        <li className='footer__item'><NavLink to="/PoliticConfidance">ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ</NavLink></li>
                         <li className='footer__item'>НОВИНИ</li>
                     </ul>
                     <div className='form'>

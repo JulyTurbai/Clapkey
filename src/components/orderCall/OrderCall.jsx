@@ -22,7 +22,7 @@ const OrderCall = () => {
           <div className="close" onClick={() => setIsSuccessVisible(false)}>
             <img src="img/icons/exit.png" alt="Закрити" />
           </div>
-          <h3>ЗАЯВКА ПРИЙНЯТА</h3>
+          <p className='accepted'>ЗАЯВКА ПРИЙНЯТА</p>
           <p>
             За 10-15 хвилин вам зателефонують для надання детальної інформації або текст про те що все круто або не круто, як повезе
           </p>

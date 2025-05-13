@@ -1,0 +1,58 @@
+.not-found {
+    padding: 70px 0 ;   
+}
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-info__img {
+    width: 560px;
+}
+
+.main-info__descr {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+h4 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.not-found__link {
+    width: 160px;
+    height: 50px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-top: 30px;
+    border: none;
+    font-weight: 500;
+}
+
+.not-found__link:hover {
+    background-color: #c7d8b6;
+}
+
+.not-found__link a {
+    color: white;
+    
+}
+
+.not-found__link a:hover {
+    color: black;
+    
+}

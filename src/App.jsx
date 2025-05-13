@@ -5,6 +5,8 @@ import { About } from './pages/about/About';
 import { Contacts } from './pages/contacts/Contacts';
 import ScrollToTop from './components/ScrollToTop.js';
 import { NotFound } from './pages/notFound/NotFound.jsx';
+import PoliticConfidance from './pages/politicConfidance/PoliticConfidance.jsx';
+import CrmErp from './pages/products/CrmErp.jsx';
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
           <Route path='about' element={ < About />} />
           <Route path='contacts' element={ < Contacts />} />
           <Route path="*" element={ <NotFound />}/>
+          <Route path='PoliticConfidance' element={ < PoliticConfidance/>} />
+          <Route path='CrmErp' element={ < CrmErp />} />
         </Route>
       </Routes>
     </Router>
